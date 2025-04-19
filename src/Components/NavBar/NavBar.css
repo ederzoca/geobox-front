@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2D2F3D;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    max-width: 370px;
+    width: 100%; /* Ajusta-se à largura do container */
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+
+
+.navbar-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-icon {
+    font-size: 24px;
+    color: #D9D9D9;
+}
+
+.navbar-item.active .navbar-icon {
+    color: #FF6300;
+}

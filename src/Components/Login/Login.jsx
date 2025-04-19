@@ -21,7 +21,6 @@ const Login = () => {
         <div className="logo-container">
                     <img src="src/assets/Group 18.svg" alt="Logo do App" className="logo" />
                 </div>
-            <h1>Bem vindo!</h1>
             <div className='input-fields'>
                 <input
                     type="email"
@@ -48,11 +47,12 @@ const Login = () => {
             </div>
 
             <button>Entrar</button>
-            
+
+            {/*
             <div className="signup-link">
                 <p>Não tem uma conta? <a href='#'>Registre-se</a></p>
             </div>
-
+            */}
         </form>
     </div>
   )
@@ -60,7 +60,5 @@ const Login = () => {
 
 export default Login
 
-// Fazer validações de login
-
-
+// Fazer validações de login    
 // ES7 React cria um componente funcional sem a necessidade do retrabalho de criar 

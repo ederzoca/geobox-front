@@ -1,11 +1,11 @@
 import './App.css'
 import Login from './Components/Login/Login';
+import EntregaCaixa from './Components/Motorista/EntregaCaixa';
 
 function App() {
   return (
     <div className='App'>
-      <img src="./assets/Group 18.svg" alt="" />
-      <Login></Login>
+      <Login/>
     </div>
   )
 }
